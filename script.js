@@ -193,3 +193,22 @@
 
 
 // 1. Write a js program to find length of a string.
+// var str = "apple, bnana, mango , orange";
+// console.log("Length of string is", str.length);
+
+// 2. Writev a js program to copy one string to another string.
+
+// 3. Write a js program to concatenate two strings.
+// var a = "I Love";
+// var b = " Pakistan";
+// var c = a.concat("", b)
+// console.log(c);
+
+// 5. Write a js program to convert lowercase string to uppercase.
+// var str = "apple, bnana, mango , orange";
+// var upper = str.toUpperCase();
+// console.log(upper);
+// 6. Write a js program to convert uppercase string to lowercase.
+// var str = "APPLE, BNANA, MANGO , ORANGE";
+// var lower = str.toLowerCase();
+// console.log(lower);
