@@ -55,7 +55,7 @@
 // name : "David Rayy",
 // sclass : "VI",
 // rollno : 12 };
- 
+
 
 // 3. Write a JavaScript program to get the length of a JavaScript object.   
 // Sample object :
@@ -63,7 +63,7 @@
 // name : "David Rayy",
 // sclass : "VI",
 // rollno : 12 };
- 
+
 
 // 4. Write a JavaScript program to display the reading status (i.e. display book name, author name and reading status) of the following books.   
 
@@ -83,23 +83,23 @@
 //        title:  'Mockingjay: The Final Book of The Hunger Games', 
 //        readingStatus: false
 //    }];
- 
+
 
 // 5. Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.   
 // Volume of a cylinder : V = πr2h
 // where r is the radius and h is the height of the cylinder.
- 
+
 
 // 6. Write a Bubble Sort algorithm in JavaScript.   
 // Note : Bubble sort is a simple sorting algorithm that works by repeatedly stepping through the list to be sorted,
 // Sample Data: [6,4,0, 3,-2,1]
 // Expected Output : [-2, 0, 1, 3, 4, 6]
- 
+
 
 // 7. Write a JavaScript program which returns a subset of a string.   
 // Sample Data: dog
 // Expected Output: ["d", "do", "dog", "o", "og", "g"]
- 
+
 
 // 8. Write a JavaScript program to create a Clock.   
 // Note: The output will come every second.
@@ -110,11 +110,11 @@
 // "14:37:45"
 // "14:37:46"
 // "14:37:47"
- 
+
 
 // 9. Write a JavaScript program to calculate the area and perimeter of a circle.   
 // Note : Create two methods to calculate the area and perimeter. The radius of the circle will be supplied by the user.
- 
+
 
 // 10. Write a JavaScript program to sort an array of JavaScript objects.   
 // Sample Object :
@@ -150,28 +150,28 @@
 //   libraryID: 1254,
 //   title: "Bill Gates"
 // }]
- 
+
 
 // 11. Write a JavaScript function to print all the methods in an JavaScript object.   
 // Test Data :
 // console.log(all_properties(Array));
 // ["length", "name", "arguments", "caller", "prototype", "isArray", "observe", "unobserve"]
 
- 
+
 // 12. Write a JavaScript function to parse an URL.   
- 
+
 
 // 13. Write a JavaScript function to retrieve all the names of object's own and inherited properties.   
- 
+
 
 // 14. Write a JavaScript function to retrieve all the values of an object's properties.   
- 
+
 
 // 15. Write a JavaScript function to convert an object into a list of `[key, value]` pairs.   
- 
+
 
 // 16. Write a JavaScript function to get a copy of the object where the keys have become the values and the values the keys.   
- 
+
 
 // 17. Write a JavaScript function to check whether an object contains given property.   
 
@@ -204,11 +204,68 @@
 // var c = a.concat("", b)
 // console.log(c);
 
+// 4. Write a js program to compare two strings.
+// var str1 = "Brother";
+// var str2 = "540"
+// console.log(str1 == str2);
+
+// var str1 = "Brother";
+// var str2 = "Brother"
+// console.log(str1 == str2);
+
 // 5. Write a js program to convert lowercase string to uppercase.
 // var str = "apple, bnana, mango , orange";
 // var upper = str.toUpperCase();
 // console.log(upper);
+
 // 6. Write a js program to convert uppercase string to lowercase.
 // var str = "APPLE, BNANA, MANGO , ORANGE";
 // var lower = str.toLowerCase();
 // console.log(lower);
+
+// 7. Write a js program to toggle case of each character of a string.
+
+// 8. Write a js program to find total number of alphabets, digits or special character in a string.
+// var str = "Noman@123#";
+// var digits = "";
+// var alphabet = "";
+// var spclChar = "";
+// for (let i = 0; i < str.length; i++) {
+//     var ch = str[i];
+//     if ((ch >= "a" && ch <= "z") || (ch >= "A" && ch <= "Z")) {
+//         console.log("Alphabets",  alphabet);
+//     }
+//     if (ch >= "0" && ch <= "9") {
+//         console.log("Digits", digits);
+//     }
+
+// here some problem
+
+//     if ((ch !== "0" && ch !== "9") || (ch !== "a" && ch !== "z") || (ch !== "A" && ch!== "Z"))  {
+// console.log("special character",spclChar);
+//     }
+
+// }
+
+
+// 9. Write a js program to count total number of vowels and consonants in a string.
+// var str = "hello world78632";
+// var vowels = ""; 
+// var constants = "";
+//  for (let i = 0; i < str.length; i++) {
+//      var ch = str[i];
+//      if (ch == "a" || ch == "e" || ch == "i" || ch == "i" || ch == "o" || ch == "u") {
+//          console.log("vowels",vowels);
+//      }
+//      else if (ch >= "0" && ch <="9") {
+//          console.log("constants", constants);
+//      }
+     
+//  }
+// 10. Write a js program to count total number of words in a string.
+
+// var str = "hello world This is Noman Here ";
+// var words = str.match(/(\w+)/g).length;
+// console.log(words);
+
+var str = "hello world This is Noman Here ";
