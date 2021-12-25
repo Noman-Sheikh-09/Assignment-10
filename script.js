@@ -268,4 +268,18 @@
 // var words = str.match(/(\w+)/g).length;
 // console.log(words);
 
-var str = "hello world This is Noman Here ";
+// 11. Write a js program to find reverse of a string.
+// var str = "This is Noman Here";
+// var strOpposite = str.split('').reverse('').join('')
+// console.log(strOpposite);
+
+//Will do ALso with LooP
+ 
+//  12. Write a js program to check whether a string is palindrome or not.
+
+
+// 13. Write a js program to reverse order of words in a given string
+
+var str = "This is Noman Here";
+var oppWords = str.split().reverse().join("")
+console.log(oppWords);
