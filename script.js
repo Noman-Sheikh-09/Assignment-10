@@ -294,8 +294,18 @@
 // console.log(lastOccurrance);
 // 16. Write a js program to search all occurrences of a character in given string.
 
-var str = "Hello How Are you here i am noman";
+// var str = "Hello How Are you here i am noman";
 
-var allOccurrance = str.search("h")
-console.log(allOccurrance);
+// var allOccurrance = str.match(/e/g)
+// console.log(allOccurrance);
 
+// 17. Write a js program to count occurrences of a character in given string.
+// var str = "Hello How Are you here i am noman";
+
+// var allOccurrance = str.match(/e/g)
+// console.log(allOccurrance);
+// 18. Write a js program to find highest frequency character in a string.
+// 19. Write a js program to find lowest frequency character in a string.
+// 20. Write a js program to count frequency of each character in a string.
+// 21. Write a js program to remove first occurrence of a character from string.
+var str = "Students of Saylani Batch-4";
