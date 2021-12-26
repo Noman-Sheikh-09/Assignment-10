@@ -307,5 +307,42 @@
 // 18. Write a js program to find highest frequency character in a string.
 // 19. Write a js program to find lowest frequency character in a string.
 // 20. Write a js program to count frequency of each character in a string.
+
 // 21. Write a js program to remove first occurrence of a character from string.
-var str = "Students of Saylani Batch-4";
+// var str = "Students of Saylani Batch-4";
+// var firstRemove = str.slice("S")
+// console.log(firstRemove);
+
+// 25. Write a js program to replace first occurrence of a character with another in a string.
+// var str = "Here is many student but I am student of Saylani";
+// console.log(str);
+// var repFirstChar = str.replace("m", "M")
+// console.log(repFirstChar)
+
+// 26. Write a js program to replace last occurrence of a character with another in a string.
+// var str = "Students of Saylani";
+// var replastOccurrance = 
+
+
+// 27. Write a js program to replace all occurrences of a character with another in a string.
+// var str = "Students of Saylani";
+// console.log(str);
+// var repLastChar = str.replace(/a/gi, "A");
+// console.log(repLastChar);
+
+// 28. Write a js program to find first occurrence of a word in a given string.
+// var str = "Helo How are you ? there are many students but few are elligible that are seleceted"
+// var result = str.indexOf("are")
+// console.log(result);
+
+// 29. Write a js program to find last occurrence of a word in a given string.
+// var str = "Helo How are you ? there are many students but few are elligible that are seleceted"
+// var result = str.lastIndexOf("are")
+// console.log(result);
+// 30. Write a js program to search all occurrences of a word in given string.
+
+// 31. Write a js program to count occurrences of a word in a given string.
+
+// var str = "Helo How are you ? there are many students but few are elligible that are seleceted";
+// var allOccurOfWord = str.match(/are/gi)
+// console.log(allOccurOfWord);
