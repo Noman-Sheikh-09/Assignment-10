@@ -280,6 +280,22 @@
 
 // 13. Write a js program to reverse order of words in a given string
 
-var str = "This is Noman Here";
-var oppWords = str.split().reverse().join("")
-console.log(oppWords);
+// var str = "This is Noman Here";
+// var oppWords = str.split().reverse().join()
+// console.log(oppWords);
+// 14. Write a js program to find first occurrence of a character in a given string.
+// var str = "Hello How Are you";
+// var firstOccurrance = str.indexOf("o")
+// console.log(firstOccurrance);
+
+// 15. Write a js program to find last occurrence of a character in a given string.
+// var str = "Hello How Are you";
+// var lastOccurrance = str.lastIndexOf("o");
+// console.log(lastOccurrance);
+// 16. Write a js program to search all occurrences of a character in given string.
+
+var str = "Hello How Are you here i am noman";
+
+var allOccurrance = str.search("h")
+console.log(allOccurrance);
+
