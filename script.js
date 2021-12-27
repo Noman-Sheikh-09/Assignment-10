@@ -359,6 +359,39 @@
 // console.log(allOccurOfWord);
 
 
+// conditional operators programming exercises
+// 1. Write a js program to find maximum between two numbers using conditional operator.
+// var num1 = parseInt(prompt("Enter First Number"));
+// var num2 = parseInt(prompt("Enter Second Number"));
+// var result;
+// (num1>num2)? result = "First is Greater" : result ="Second is Greater";
+// console.log(result);
+
+
+// 2. Write a js program to find maximum between three numbers using conditional operator.
+// var num1 = parseInt(prompt("Enter First Number"));
+// var num2 = parseInt(prompt("Enter Second Number"));
+// var num3 = parseInt(prompt("Enter Third Number"));
+// var result = (num1>num2 && num1>num3 || num2>num1 && num2>num3 || num3>num2 && num3>num1)? "Number one is Greater" : "Number Two is Greater" 
+// console.log(result);
+// 3. Write a js program to check whether a number is even or odd using conditional operator.
+
+// var number = parseInt(prompt("Enter First Number"));
+// var result = (number%2==0)? "Number is Even" : "Number is Odd"
+// console.log(result);
+
+// 4. Write a js program to check whether year is leap year or not using conditional operator.
+// var year = prompt("Enter your Year");
+// var result = (year%4==0)? "Leap Year" : "Not Leap Year";
+// console.log(result);
+
+// 5. Write a js program to check whether character is an alphabet or not using conditional operator.
+
+// var ch = prompt("Enter Character");
+// var result = (ch>="a" && ch<="z" || ch>="A" && ch<="Z")? "Character is Alphabet" : "Character is not Alphabet"
+// console.log(result);
+
+
 // List of switch case programming exercises
 // 1. Write a js program to print day of week name using switch case.
 // var day = parseInt(prompt("Enter Number"));
@@ -502,26 +535,26 @@
 // 7. Write a js program to find roots of a quadratic equation using switch case.
 
 // 8. Write a js program to create Simple Calculator using switch case.
-var num1 = prompt("First Number");
-var num2 = prompt("Second Number");
-var operator = prompt("Enter Operator");
-switch (operator) {
-    case '+':
-        var Sum = parseFloat(num1)+ parseFloat(num2)
-        console.log(Sum);
-        break;
-        case '/':
-        console.log(num1 / num2);
-        break;
+// var num1 = prompt("First Number");
+// var num2 = prompt("Second Number");
+// var operator = prompt("Enter Operator");
+// switch (operator) {
+//     case '+':
+//         var Sum = parseFloat(num1)+ parseFloat(num2)
+//         console.log(Sum);
+//         break;
+//         case '/':
+//         console.log(num1 / num2);
+//         break;
 
-        case '-':
-        console.log(num1 - num2);
-        break;
+//         case '-':
+//         console.log(num1 - num2);
+//         break;
 
-        case '*':
-        console.log(num1 * num2);
-        break;
-    default:
-        console.log("Invalid something");
-        break;
-}
+//         case '*':
+//         console.log(num1 * num2);
+//         break;
+//     default:
+//         console.log("Invalid something");
+//         break;
+// }
