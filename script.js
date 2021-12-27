@@ -305,16 +305,24 @@
 // var allOccurrance = str.match(/e/g)
 // console.log(allOccurrance);
 // 18. Write a js program to find highest frequency character in a string.
-var str = "Helo How are you ? there are many students but few are elligible that are seleceted";
+// var str = "Helo How are you ? there are many students but few are elligible that are seleceted";
 
 
 
 // 19. Write a js program to find lowest frequency character in a string.
 // 20. Write a js program to count frequency of each character in a string.
 
-// 21. Write a js program to remove first occurrence of a character from string.
+// // 21. Write a js program to remove first occurrence of a character from string.
 // var str = "Students of Saylani Batch-4";
+// var str2 = str.replace("a", "")
+// console.log(str2);
 
+// 22. Write a js program to remove last occurrence of a character from string.
+// 23. Write a js program to remove all occurrences of a character from string.
+
+// var str = "Students of Saylani Batch-4";
+// var str2 = str.replace(/S/gi, "")
+// console.log(str2);
 
 // 25. Write a js program to replace first occurrence of a character with another in a string.
 // var str = "Here is many student but I am student of Saylani";
@@ -354,8 +362,20 @@ var str = "Helo How are you ? there are many students but few are elligible that
 //OBJECTS
 
 // 1. Write a JavaScript program to list the properties of a JavaScript object
-var student = {
-name : "David Rayy",
-sclass : "VI",
-rollno : 12 };
-// Sample Output: name,sclass,rollno
+
+// var student = {
+// name : "David Rayy",
+// sclass : "VI",
+// rollno : 12 };
+// console.log(student.name);
+// console.log(student.sclass);
+// console.log(student.rollno);
+
+// 2. Write a JavaScript program to delete the rollno property from the following object. Also print the object before or after deleting the property.
+// Sample object:
+// var student = {
+// name : "David Rayy",
+// sclass : "VI",
+// rollno : 12 };
+// console.log(student);
+
