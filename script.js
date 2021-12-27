@@ -441,8 +441,19 @@
 // }
 
 // 3. Write a js program to check whether an alphabet is vowel or consonant using switch case.
-
-
+// var ch = prompt("Enter your Alphabet")
+// switch (ch=="a"  || ch=="i"  || ch=="e"  || ch=="u"  || ch=="o" ) {
+//     case true:
+//         console.log("Vowel");
+//         break;
+//         case false:
+//         console.log("Constant");
+//             break;
+//     default:
+// console.log("Invalid");
+//         break;
+// }
+// 
 
 // 4. Write a js program to find maximum between two numbers using switch case.
 // var num1 = parseInt(prompt("Enter First Number"));
@@ -488,3 +499,29 @@
 //         console.log("Invalid");
 //         break;
 // }
+// 7. Write a js program to find roots of a quadratic equation using switch case.
+
+// 8. Write a js program to create Simple Calculator using switch case.
+var num1 = prompt("First Number");
+var num2 = prompt("Second Number");
+var operator = prompt("Enter Operator");
+switch (operator) {
+    case '+':
+        var Sum = parseFloat(num1)+ parseFloat(num2)
+        console.log(Sum);
+        break;
+        case '/':
+        console.log(num1 / num2);
+        break;
+
+        case '-':
+        console.log(num1 - num2);
+        break;
+
+        case '*':
+        console.log(num1 * num2);
+        break;
+    default:
+        console.log("Invalid something");
+        break;
+}
