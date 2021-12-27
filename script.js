@@ -359,23 +359,132 @@
 // console.log(allOccurOfWord);
 
 
-//OBJECTS
+// List of switch case programming exercises
+// 1. Write a js program to print day of week name using switch case.
+// var day = parseInt(prompt("Enter Number"));
+// switch (day) {
+//         case 0:
+//         console.log("Sunday");
+//         break;
+//         case 1:
+//         console.log("Monday");
+//         break;
+//         case 2:
+//         console.log("Tuesday");
+//         break;
+//         case 3:
+//         console.log("Wednesday");
+//         break;
+//         case 4:
+//         console.log("Thursday");
+//         break;
+//         case 5:
+//         console.log("Friday");
+//         break;
+//         case 6:
+//         console.log("Saturday");
+//         break;
 
-// 1. Write a JavaScript program to list the properties of a JavaScript object
+//     default:
+//         console.log("Inavlid");
+//         break;
+// }
 
-// var student = {
-// name : "David Rayy",
-// sclass : "VI",
-// rollno : 12 };
-// console.log(student.name);
-// console.log(student.sclass);
-// console.log(student.rollno);
+// 2. Write a js program print total number of days in a month using switch case.
+// var day = parseInt(prompt("Enter Numebr"));
+// switch (day) {
+//     case 0:
+//         console.log("31 days");
+//         break;
 
-// 2. Write a JavaScript program to delete the rollno property from the following object. Also print the object before or after deleting the property.
-// Sample object:
-// var student = {
-// name : "David Rayy",
-// sclass : "VI",
-// rollno : 12 };
-// console.log(student);
+//         case 1:
+//         console.log("28 days");
+//         break;
+//         case 2:
+//         console.log("31 days");
+//         break;
+//         case 3:
+//         console.log("30 days");
+//         break;
+//         case 4:
+//         console.log("31 days");
+//         break;
 
+//         case 5:
+//         console.log("30 days");
+//         break;
+//         case 6:
+//         console.log("31 days");
+//         break;
+//         case 7:
+//         console.log("31 days");
+//         break;
+//         case 8:
+//         console.log("31 days");
+//         break;
+//         case 9:
+//         console.log("30 days");
+//         break;
+//         case 10:
+//         console.log("30 days");
+//         break;
+//         case 11:
+//         console.log("31 days");
+//         break;
+//         // case 12:
+//         // console.log("31 days");
+//         // break;
+
+//     default:
+//         console.log("Inavlid");
+//         break;
+// }
+
+// 3. Write a js program to check whether an alphabet is vowel or consonant using switch case.
+
+
+
+// 4. Write a js program to find maximum between two numbers using switch case.
+// var num1 = parseInt(prompt("Enter First Number"));
+// var num2 = parseInt(prompt("Enter Second Numebr"));
+// // var num3 = [num1,num2];
+// switch (num1>num2) {
+//     case true:
+//       console.log("First is Greater");
+//       break;
+//       case false:
+//         console.log("Second is Greater");
+//         break;
+//     default:
+//         console.log("Numbers are Equal",);
+//         break;
+// }
+
+// 5. Write a js program to check whether a number is even or odd using switch case.
+// var num = parseInt(prompt("Enter Number"));
+// switch (num%2==0) {
+//     case true:
+//         console.log("Number is Even");
+//         break;
+
+//         case false:
+//         console.log("Number is Odd");
+//         break;
+//     default:
+//         console.log("Invalid");
+//         break;
+// }
+
+// 6. Write a js program to check whether a number is positive, negative or zero using switch case.
+// var num = parseInt(prompt("Enter Number"));
+// switch (num>0) {
+//     case true:
+//         console.log("Number is Positive");
+//         break;
+//         case false:
+//         console.log("Number is Negative");
+//         break;
+//     default:
+//         console.log("Invalid");
+//         break;
+// }
