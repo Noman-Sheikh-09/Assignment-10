@@ -358,6 +358,36 @@
 // var allOccurOfWord = str.match(/are/gi)
 // console.log(allOccurOfWord);
 
+// objects
+// 1. Write a JavaScript program to list the properties of a JavaScript object
+
+// var student = {
+// name : "David Rayy",
+// sclass : "VI",
+// rollno : 12 };
+// console.log(student.name);
+// console.log(student.sclass);
+// console.log(student.rollno);
+
+// 2. Write a JavaScript program to delete the rollno property from the following object. Also print the object before or after deleting the property.
+// Sample object:
+// var student = {
+// name : "David Rayy",
+// sclass : "VI",
+// rollno : 12 };
+// console.log(student);
+// delete student.rollno;
+// console.log(student);
+
+// 3. Write a JavaScript program to get the length of a JavaScript object.   
+// Sample object :
+var student = {
+name : "David Rayy",
+sclass : "VI",
+rollno : 12 };
+
+
+
 
 // conditional operators programming exercises
 // 1. Write a js program to find maximum between two numbers using conditional operator.
